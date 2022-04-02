@@ -54,7 +54,7 @@ button {
 .headerLinks {
     display: flex;
     flex-shrink: 0;
-    gap: 25px;
+    gap: 35px;
     font-size: 18px;
     font-weight: 500;
     color: #E5E7EB;
@@ -66,7 +66,6 @@ button {
 
 .bodyOne {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -90,8 +89,10 @@ button {
 }
 
 .bodyOneLeftSubtext {
+    flex-wrap: wrap;
     font-size: 16px;
     font-weight:200;
+    width: 350px;
 }
 
 .bodyOneRight {
