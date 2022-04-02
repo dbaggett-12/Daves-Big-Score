@@ -76,7 +76,8 @@ button {
     font-weight: 900;
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     gap: 40px;
 
 }
@@ -111,7 +112,6 @@ button {
     height: 550px;
     color:#1F2937;
     background-color:whitesmoke;
-    font-size: large;
     padding-bottom: 50px;
 }
 
@@ -157,12 +157,13 @@ button {
     color: #1F2937;
     font-size: 32px;
     font-weight: 50;
-    background-color: #E5E7EB;
-    height: 450px;
+    height: 500px;
+    background-color:lightgray;
     justify-content: center;
     padding-left: 20%;
     padding-right: 20%;
     font-style: italic;
+    margin-right: -20px;
 }
 
 .bodyThreeFooter {
@@ -171,4 +172,54 @@ button {
     font-size: 20px;
     font-style: normal;
     margin-top: 20px;
+}
+
+.bodyFour {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    height: 450px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.bodyFourContainer {
+    display: flex;
+    background-color: #3882f6;
+    padding: 37px;
+    border-radius: 12px;    
+}
+
+.bodyFourLeft {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bodyFourHeader {
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.bodyFourRight {
+    display: flex;
+    align-items: center;
+    
+    padding: 0px;
+    font-size: 10px;
+}
+
+.findOutMore {
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight:bold;
+
 }
